@@ -1,0 +1,203 @@
+/********************************Navbaaaar**********************************8*/
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999
+}
+
+header nav.navbar {
+	background: #74597c;
+}
+
+nav.navbar .dropdown {
+	border: 2px solid #eaeceb;
+	border-radius: 4px
+}
+
+nav.navbar .dropdown .dropdown-menu {
+	background: #eaeceb;
+}
+
+nav.navbar .dropdown .dropdown-menu .dropdown-item {
+	color: #333;
+}
+
+nav.navbar .dropdown .dropdown-divider {
+	border-top: 1px solid #333
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+	color: #eaeceb;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+	background:#333;
+	font-size: 20px;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+
+.navbar button {
+	color: #eaeceb;
+	border: 2px solid #eaeceb;
+	border-radius: 4px
+}
+
+/********************************Card/Slider***********************************/
+.MainSlider .bd-example .carousel-inner .carousel-item .carousel-caption h5 {
+	color: #f1f1f1;
+	font-size: 36px;
+}
+
+.MainSlider .bd-example .carousel-inner .carousel-item .carousel-caption p {
+	color: #f1f1f1;
+}
+
+
+/********************************About Section***********************************/
+.About-Section .about-title h2 {
+	padding-top: 30px;
+	margin-bottom: 20px;
+
+}
+
+.About-Section .AboutContent .row .about-paragraph h3 {
+	color: #74597c;
+	position: relative;
+	margin-left: 10px;
+}
+
+/*
+.About-Section .AboutContent .about-paragraph h3::after {
+	position: absolute;
+	content: "";
+	width: 512px;
+	left: 132px;
+	height: 1px;
+	border-bottom: 1px solid #333;
+	background-color: #333;
+	color: #333;
+	top: 27px;
+}
+*/
+
+.About-Section .AboutContent .about-paragraph p {
+	top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+}
+
+.AboutContent .vedio-about video {
+	width: 510px;
+	height: 234px
+}
+
+/**********************************Service Section *********************************/
+.Service-Section {
+	background-color: #e8e3ea;
+}
+
+.Service-Section .title-div h2 {
+	padding-top: 20px;
+
+}
+
+/****************************testmonials Section*************************************/
+.testmonials .titel-testmon h3 {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+#testSlider {
+	height: 400px;
+	padding: 100px 0;
+}
+
+#testSlider .carousel-caption {
+	position: static;
+	padding: 0 15%;
+	color: #333 !important
+}
+
+#testSlider .carousel-caption .media img {
+	width: 100px;
+	height: 100px;
+
+}
+
+/**********************************Footer*****************************************/
+.footer-section {
+	background-color: #75597d;
+}
+
+#st-footer img {
+	border-radius: 50%;
+}
+
+.footer-section #st-footer .article {
+	margin-bottom: 5px;
+}
+
+.footer-section #st-footer .article h3 {
+	text-align: left;
+}
+
+.footer-section #st-footer .article p {
+	border: 1px solid #eaeceb;
+	padding: 10px;
+	padding-top: 0;
+	border-radius: 5px;
+	color: #eaeceb;
+}
+
+.footer-section .container-fluid .row .heading {
+	padding-top: 30px;
+	margin-left: 10px;
+}
+
+.footer-section .container-fluid .row .heading h3 {
+	padding: 10px;
+}
+
+.footer-section .container-fluid .row .heading .list ul li {
+	color: #eaeceb;
+	margin-bottom: 2px;
+}
+
+#social ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 3px;
+}
+
+#social ul li i {
+	font-size: 25px;
+}
+
+.form {
+	/*	border: 1px solid #eaeceb;*/
+	padding: 15px;
+	border-radius: 6px;
+}
+
+.form form label {
+	color: #eaeceb;
+}
+
+.form form .mail {
+	color: #eaeceb;
+	text-decoration: underline;
+}
+
+.form form button {
+	background-color: #cec4cd;
+	color: #0c0000;
+	margin-top: 10px;
+
+}
